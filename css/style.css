@@ -1315,8 +1315,9 @@ body {
     transform: scale(0);
   }
 }
-.not-loaded * {
-  animation-play-state: paused !important;
+.container * {
+  -webkit-animation-play-state: paused !important;
+          animation-play-state: paused !important;
 }
 
 /*# sourceMappingURL=style.css.map */
